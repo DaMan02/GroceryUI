@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_header">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="36dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:queryHint="Search for products"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/search"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:padding="12dp"
+            android:text="Flat 50% discount"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:padding="10dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sliced_pizza"
+           />
+
+
+    </LinearLayout>
+    
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
